@@ -1,0 +1,4 @@
+# Library Files are BINARY
+
+*.dll -k 'b'
+*.lib -k 'b'

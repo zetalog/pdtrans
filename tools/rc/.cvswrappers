@@ -1,0 +1,5 @@
+# RC files are binaries.
+
+*.exe -k 'b'
+*.dll -k 'b'
+*.hlp -k 'b'

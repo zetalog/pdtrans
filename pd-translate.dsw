@@ -1,0 +1,128 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "buildall"=.\buildall.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libpdt
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name pd_diff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name pd_resgen
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name pd_trans
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name windres
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "libpdt"=.\lib\libpdt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "pd_diff"=.\src\pd_diff.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libpdt
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "pd_resgen"=.\src\pd_resgen.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libpdt
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "pd_test"=.\test\pd_test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libpdt
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "pd_trans"=.\src\pd_trans.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libpdt
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "windres"=.\tools\windres\windres.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

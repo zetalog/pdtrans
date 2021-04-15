@@ -1,0 +1,21 @@
+This file controls TODO list for ProcessDirector's translation utilities.
+
+pd_trans
+
+	Draw mode:
+
+		ASP: VBScript & JScript parser in the HTML section.
+		JS: lines mark as nblocks enable keyword drawing.
+		SQL: sentances mark as nblocks enable keyword drawing.
+
+	Replace mode:
+
+		ASP: client HTML scripts support.
+
+pd_diff
+
+	main: allow disabling diff signs outputs.
+
+pd_resgen
+
+	N/A.

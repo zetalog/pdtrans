@@ -1,0 +1,1 @@
+<% Response.Write GetMess(2) %>

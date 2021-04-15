@@ -1,0 +1,11 @@
+0.8 - 20040628:
+	pd_resgen can combine multi CSV resource files into one RC resource file.
+	pd_trans can draw ASP/VB/SQL quoted strings.
+	pd_trans can replace VB/SQL quoted strings.
+	pd_diff can patch two versions of CSV resource.
+
+1.0 - 20040713:
+	add pd_test as libpdt's unit test program.
+	pd_trans' bugs found by pd_test were fixed.
+	pd_trans can insert include file into ASP file at correct position.
+	pd_trans generate PDSetProperty into the constant header of VB.

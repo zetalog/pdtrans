@@ -1,0 +1,29 @@
+This file maintained the main devotees for ProcessDirector Translation Utilities.
+
+Qian Pan:
+
+	Managed VB translation project.
+
+Daiheng Huang:
+
+	Implemented prototype translation tools using PERL.
+
+Lv Zheng:
+
+	Architected libpdt and diff/resgen/trans tools.
+	Implemented vector data structure.
+	Implemented CSV resources handler.
+	Implemented VB scanner & parser.
+	Implemented ASP scanner & parser.
+	Implemented JS scanner & parser.
+	Implemented sufix plugin routines.
+
+Xiageng Feng:
+
+	Implemented directory utilities.
+	Implemented SQL scanner & parser.
+	Unit tested whole libpdt library.
+
+Yonghua Zheng:
+
+	Implemented VB sub routines for localization.

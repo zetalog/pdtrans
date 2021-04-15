@@ -1,0 +1,76 @@
+This file controls critical bugs discovered by devotees.
+
+Report data are formatted as:
+
+--------------------------------------------------
+Reported Date - Reporter
+	Bug description.
+Fixed Date - Fixer
+	comments.
+--------------------------------------------------
+
+Reported 20040629 - Lv Zheng
+	VB parser's property depth will decreased below 0, this should not happen.
+Fixed 20040712 - Lv Zheng
+	result: using line type stack to avoid this
+	limits: N/A
+
+Reported 20040629 - Yonghua Zheng
+	VB object's tag should be generatated before sub-controls.
+Fixed 20040630 - Lv Zheng
+	result: tag added before Begin or End (no Begin found)
+	limits: last line's comment will be output after tag.
+
+Reported 20040630 - Xiageng Feng
+	SQL scanner did not process comments.
+Fixed 20040707 - Xiageng Feng
+	result: comments will be skipped by SQL scanner.
+	limits: N/A
+
+Reported 20040630 - Baojun Zhang
+	ASP scanner did not process <%= which followed by a non-space character.
+Fixed 20040630 - Lv Zheng
+	result: <%= can be processed in any conditions.
+	limits: N/A
+
+Reported 20040702 - Baojun Zhang
+	ASP scanner did not process scripts in the HTML comments.
+Fixed 20040702 - Lv Zheng
+	result: comments will be treated as normal text for ASP.
+	limits: #include will be processed as new file.
+
+Reported 20040702 - Baojun Zhang
+	JS files' string have not been drawn.
+Fixed 20040702 - Xiageng Feng
+	result: logical wrong in sanity check block of to_csv call.
+	limits: JS string will be added double quotor of both sides.
+
+Reported 20040702 - Xiageng Feng
+	Keyword drawing did not work.
+Fixed 20040703 - Lv Zheng
+	result: ASP, VB keyword function correctted.
+	limits: SQL keyword not supported.
+
+Reported 20040707 - Pan Qian
+	words in recursive property scope did not be drawn.
+Fixed 20040707 - Lv Zheng
+ 	result: fix parser should_draw flag set bug.
+	limits: N/A
+
+Reported 20040707 - Pan Qian
+	VB constant header generation failed.
+Fixed 20040707 - Xiageng Feng
+ 	result: Fix string manipulation bug.
+	limits: N/A
+
+Reported 20040707 - Pan Qian
+	VB constant value alias geneartion failed.
+Fixed 20040707 - Lv Zheng
+	result: Fix string manipulation bug.
+	limits: N/A
+
+Reported 20040709 - Xiageng Feng
+	can not replace recursive tags properly.
+Fixed 20040709 - Lv Zheng
+	result: using line type stack to avoid this.
+	limits: N/A

@@ -1,0 +1,4 @@
+# Following Files are BINARY
+
+*.xls -k 'b'
+*.doc -k 'b'

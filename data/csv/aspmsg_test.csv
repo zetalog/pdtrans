@@ -1,0 +1,8 @@
+"id","japanese"
+"1","2Input1.inc文字","2EnInput1.inc"
+"2","4本層Input2.inc文字","4EnThisDirInput2.inc"
+"3","6ASPコードSPACE無し","6EnASPCodeNoSpace"
+"4","7ASPコードSPACEあり","7EnASPCodeHaveSpace"
+"5","8輸出SPACE無し","8EnOutputNoSpace"
+"6","9輸出SPACEあり","9EnOutputHaveSpace"
+"7","10注釈中","10EnComment"
